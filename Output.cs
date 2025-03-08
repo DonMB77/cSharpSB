@@ -91,4 +91,20 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class MathClass
+    {
+        static void Main(String[] args)
+        {
+
+            double x = 3; ;
+            double y = 3.14;
+            double xPow = Math.Pow(x, 2);
+            double b = Math.Sqrt(x);
+            double c = Math.Abs(x);
+            double d = Math.Round(y);
+
+            Console.ReadKey();
+        }
+    }
 }
