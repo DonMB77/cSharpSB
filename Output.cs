@@ -320,4 +320,27 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class MultidimentionalArrays
+    {
+        static void Main(String[] args)
+        {
+            String[,] parkinglot = { { "Mustang", "BMW", "Subaru" },
+                                     { "Nissan", "Golf", "Ford" } };
+
+            foreach(String item in parkinglot)
+            {
+                Console.WriteLine(item);
+            }
+
+            for (int i = 0; i < parkinglot.GetLength(0); i++)
+            {
+                for (int j = 0; j < parkinglot.GetLength(1); j++)
+                {
+                    Console.Write(parkinglot[i,j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
 }
