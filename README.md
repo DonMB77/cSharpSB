@@ -1,1 +1,1 @@
-Used primarily for tutoring. Some personal sandboing aswell.
+Used primarily for tutoring. Some personal sandboing as well.
