@@ -121,4 +121,23 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class StringMethods
+    {
+        static void Main(String[] args)
+        {
+            String fullName = "Tom Thomas";
+            String phoneNumber = "123-456-789";
+            phoneNumber = phoneNumber.Replace("-", "/");
+            Console.WriteLine(phoneNumber);
+
+            String username = fullName.Insert(0, "@");
+            Console.WriteLine(username);
+
+            String firstName = fullName.Substring(0, 3);
+            Console.WriteLine(firstName);
+
+            Console.ReadKey();
+        }
+    }
 }
