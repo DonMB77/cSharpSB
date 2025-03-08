@@ -27,4 +27,19 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class Variables
+    {
+        static void Main(string[] args)
+        {
+            int x; //declaration
+            x = 123; //initialization
+            int z = 3;
+            int result = x + z;
+            double height = 1.70; //dec number with some precision
+
+            Console.WriteLine("result: " + result);
+            Console.WriteLine("height: " + height);
+        }
+    }
 }
