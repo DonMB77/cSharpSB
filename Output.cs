@@ -350,13 +350,31 @@ namespace cSharpSB
         String model;
         int year;
         String color;
+        int speed;
 
-        public Car(String make, String model, int year, String color)
+        public int Speed
         {
+            get { return speed; } //read
+            set
+            {
+                if (value > 500)
+                {
+                    speed = 500;
+                } else
+                {
+                    speed = value;
+                }
+            }
+        }
+
+        public Car(String make, String model, int year, String color, int speed)
+        {
+
             this.make = make;
             this.model = model;
             this.year = year;
             this.color = color;
+            this.Speed = speed;
         }
 
         public void Drive()
