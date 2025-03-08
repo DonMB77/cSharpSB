@@ -46,4 +46,17 @@ namespace cSharpSB
             Console.WriteLine(height);
         }
     }
+
+    class Constants
+    {
+        static void Main(String[] args)
+        {
+            // constants = immutable values which are always known at compile time
+            //             and cannot change during the life of the programm
+
+            double PI = Math.PI;
+            Console.WriteLine(PI);
+            Console.ReadKey();
+        }
+    }
 }
