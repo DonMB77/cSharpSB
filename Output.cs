@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -156,6 +157,26 @@ namespace cSharpSB
             } else
             {
                 Console.WriteLine("You are not an adult.");
+            }
+        }
+    }
+
+    class SwitchStatements
+    {
+        static void Main(String[] args)
+        {
+            String day = "Monday";
+
+            switch(day) {
+                case "Monday":
+                    Console.WriteLine("Today is Monday!");
+                    break;
+                case "Tuesday":
+                    Console.WriteLine("Today is Tuesday!");
+                    break;
+                default:
+                    Console.WriteLine("Weekday not yet implemented!");
+                    break;
             }
         }
     }
