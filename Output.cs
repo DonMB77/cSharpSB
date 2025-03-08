@@ -107,4 +107,18 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class RandomNumbers
+    {
+        static void Main(string[] args)
+        {
+            Random r = new Random();
+
+            int num = r.Next(1, 101); // the last number is exclusive
+            double numDec = r.NextDouble(); // random number between 0 and 1
+            Console.WriteLine(num);
+
+            Console.ReadKey();
+        }
+    }
 }
