@@ -32,14 +32,18 @@ namespace cSharpSB
     {
         static void Main(string[] args)
         {
-            int x; //declaration
-            x = 123; //initialization
+            int x; // declaration
+            x = 123; // initialization
             int z = 3;
             int result = x + z;
-            double height = 1.70; //dec number with some precision
+            double height = 1.70d; // dec number with some precision
+            bool isOn = false;
+            char symbol = '@'; // beware the single quotes!
+            String name = "Tom"; // Strings use double quotes!
 
             Console.WriteLine("result: " + result);
             Console.WriteLine("height: " + height);
+            Console.WriteLine(height);
         }
     }
 }
