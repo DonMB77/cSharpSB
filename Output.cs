@@ -207,4 +207,24 @@ namespace cSharpSB
             }
         }
     }
+
+    class ArraysDemo
+    {
+        static void Main(String[] args)
+        {
+            String[] cars = { "BMW","Ford","Subaru" };
+            Console.WriteLine(cars[0]);
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }
+
+            foreach(String car in cars)
+            {
+                Console.WriteLine(car);
+            }
+
+            Console.ReadKey();
+        }
+    }
 }
