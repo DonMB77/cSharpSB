@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -134,10 +135,28 @@ namespace cSharpSB
             String username = fullName.Insert(0, "@");
             Console.WriteLine(username);
 
-            String firstName = fullName.Substring(0, 3);
+            String firstName = fullName.Substring(0, 3); // the last argument is the amount of steps, not index
             Console.WriteLine(firstName);
 
             Console.ReadKey();
+        }
+    }
+
+    class IfStatements
+    {
+        static void Main(String[] args)
+        {
+            Console.WriteLine("Please enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+
+            if (age >= 18)
+            {
+                Console.WriteLine("You are an adult.");
+            } else
+            {
+                Console.WriteLine("You are not an adult.");
+            }
         }
     }
 }
