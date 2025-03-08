@@ -343,4 +343,34 @@ namespace cSharpSB
             }
         }
     }
+
+    class Car
+    {
+        String make;
+        String model;
+        int year;
+        String color;
+
+        public Car(String make, String model, int year, String color)
+        {
+            this.make = make;
+            this.model = model;
+            this.year = year;
+            this.color = color;
+        }
+
+        public void Drive()
+        {
+            Console.WriteLine($"You drive the {make} {model}.");
+        }
+    }
+
+    class DemoProgram
+    {
+        static void Main(String[] args) 
+        {
+            Car car1 = new Car("Nissan", "Skyline", 2001, "blue");
+            car1.Drive();
+        }
+    }
 }
