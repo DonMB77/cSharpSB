@@ -227,4 +227,18 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class Methods
+    {
+        static void Main(string[] args)
+        {
+            GreetUser("Tom");
+            Console.ReadKey();
+        }
+
+        static void GreetUser(String name)
+        {
+            Console.WriteLine("Hello " + name);
+        }
+    }
 }
