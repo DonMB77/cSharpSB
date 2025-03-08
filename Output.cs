@@ -196,4 +196,15 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class ForLoops
+    {
+        static void Main(String[] args)
+        {
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
 }
