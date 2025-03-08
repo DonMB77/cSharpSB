@@ -154,7 +154,8 @@ namespace cSharpSB
             if (age >= 18)
             {
                 Console.WriteLine("You are an adult.");
-            } else
+            }
+            else
             {
                 Console.WriteLine("You are not an adult.");
             }
@@ -167,7 +168,8 @@ namespace cSharpSB
         {
             String day = "Monday";
 
-            switch(day) {
+            switch (day)
+            {
                 case "Monday":
                     Console.WriteLine("Today is Monday!");
                     break;
@@ -212,14 +214,14 @@ namespace cSharpSB
     {
         static void Main(String[] args)
         {
-            String[] cars = { "BMW","Ford","Subaru" };
+            String[] cars = { "BMW", "Ford", "Subaru" };
             Console.WriteLine(cars[0]);
             for (int i = 0; i < cars.Length; i++)
             {
                 Console.WriteLine(cars[i]);
             }
 
-            foreach(String car in cars)
+            foreach (String car in cars)
             {
                 Console.WriteLine(car);
             }
@@ -259,11 +261,44 @@ namespace cSharpSB
         static double CheckOut(params double[] pricesTotal)
         {
             double total = 0;
-            foreach(double itemPrice in pricesTotal)
+            foreach (double itemPrice in pricesTotal)
             {
                 total += itemPrice;
             }
             return total;
         }
+    }
+
+    class Exceptions
+    {
+        // try = try some code that is considered "dangerous"
+        // catch = catches and handles exceptions when they occur
+        // finally = always executed regardless if exception is caught or not
+
+        static void Main(String[] args)
+        {
+            int x = 5;
+            int y;
+            double result;
+
+            try
+            {
+                Console.WriteLine("Enter number 2:");
+                y = Convert.ToInt32(Console.ReadLine());
+
+                result = x / y;
+
+                Console.WriteLine("result " + result);
+            } catch (FormatException e)
+            {
+                Console.WriteLine("Input needs to be a number!");
+            } catch (DivideByZeroException e)
+            {
+                Console.WriteLine("You cannot divide by zero!");
+            }
+            Console.ReadKey();
+        }
+
+
     }
 }
