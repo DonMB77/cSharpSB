@@ -180,4 +180,20 @@ namespace cSharpSB
             }
         }
     }
+
+    class WhileLoops
+    {
+        static void Main(String[] args)
+        {
+            String name = "";
+
+            while (name == "")
+            {
+                Console.WriteLine("Please enter your name: ");
+                name = Console.ReadLine();
+            }
+
+            Console.ReadKey();
+        }
+    }
 }
