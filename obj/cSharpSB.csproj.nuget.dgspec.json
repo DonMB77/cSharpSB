@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB\\cSharpSB.csproj": {}
+    "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB\\cSharpSB.csproj": {
+    "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB\\cSharpSB.csproj",
+        "projectUniqueName": "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB.csproj",
         "projectName": "cSharpSB",
-        "projectPath": "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB\\cSharpSB.csproj",
+        "projectPath": "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB.csproj",
         "packagesPath": "C:\\Users\\dmarc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\cSharpSB\\obj\\",
+        "outputPath": "C:\\Users\\dmarc\\c-sharp projects\\cSharpSB\\cSharpSB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
