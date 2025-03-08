@@ -59,4 +59,20 @@ namespace cSharpSB
             Console.ReadKey();
         }
     }
+
+    class TypeCasting
+    {
+        static void Main(String[] args)
+        {
+            // type casting = converting a value to a different data type
+
+            double a = 3.14;
+            int b = Convert.ToInt32(a); // if we convert from double to int, it will truncate any decimal portion
+
+            Console.WriteLine(b);
+            Console.WriteLine(a.GetType());
+
+            Console.ReadKey();
+        }
+    }
 }
