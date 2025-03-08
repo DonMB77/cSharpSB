@@ -289,16 +289,31 @@ namespace cSharpSB
                 result = x / y;
 
                 Console.WriteLine("result " + result);
-            } catch (FormatException e)
+            }
+            catch (FormatException e)
             {
                 Console.WriteLine("Input needs to be a number!");
-            } catch (DivideByZeroException e)
+            }
+            catch (DivideByZeroException e)
             {
                 Console.WriteLine("You cannot divide by zero!");
             }
             Console.ReadKey();
         }
+    }
+    class ConditionalOperator
+    {
+        static void Main(String[] args)
+        {
+            // used in conditional assignment if a condition is true/false
+            // (condition) ? x : y
 
+            double temperature = 20;
+            String message;
 
+            message = (temperature >= 15) ? "It is warm outside!" : "It is cool outside";
+
+            Console.ReadKey();
+        }
     }
 }
