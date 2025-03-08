@@ -130,6 +130,7 @@ namespace cSharpSB
         {
             String fullName = "Tom Thomas";
             String phoneNumber = "123-456-789";
+            int age = 23;
             phoneNumber = phoneNumber.Replace("-", "/");
             Console.WriteLine(phoneNumber);
 
@@ -138,6 +139,9 @@ namespace cSharpSB
 
             String firstName = fullName.Substring(0, 3); // the last argument is the amount of steps, not index
             Console.WriteLine(firstName);
+
+            String interpolatedString = $"Hello {firstName}. Your full name is {fullName} and you are {age} years old";
+            Console.WriteLine(interpolatedString);
 
             Console.ReadKey();
         }
