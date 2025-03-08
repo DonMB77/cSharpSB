@@ -365,6 +365,25 @@ namespace cSharpSB
         }
     }
 
+    class Vehicle
+    {
+        public int speed = 0;
+        public void Go()
+        {
+            Console.WriteLine("Moving!");
+        }
+    }
+
+    class Boat : Vehicle
+    {
+        public int wheels = 0;
+    }
+
+    class Bicycle : Vehicle
+    {
+        public int wheels = 2;
+    }
+
     class DemoProgram
     {
         static void Main(String[] args) 
