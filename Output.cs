@@ -241,4 +241,29 @@ namespace cSharpSB
             Console.WriteLine("Hello " + name);
         }
     }
+
+    class ParamsKeyword
+    {
+        static void Main(String[] args)
+        {
+            // params = a method parameteer that takes a variable number of arguments.
+            //          the parameter must be a single dimensional array
+
+            double total1 = CheckOut(3.1, 4.2);
+            Console.WriteLine(total1);
+
+            double total2 = CheckOut(3.5, 6.2, 3.8);
+            Console.WriteLine(total2);
+        }
+
+        static double CheckOut(params double[] pricesTotal)
+        {
+            double total = 0;
+            foreach(double itemPrice in pricesTotal)
+            {
+                total += itemPrice;
+            }
+            return total;
+        }
+    }
 }
