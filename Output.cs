@@ -406,8 +406,15 @@ namespace cSharpSB
     {
         static void Main(String[] args) 
         {
-            Car car1 = new Car("Nissan", "Skyline", 2001, "blue");
+            Car car1 = new Car("Nissan", "Skyline", 2001, "blue", 200);
             car1.Drive();
+
+            Console.WriteLine(Planets.Earth + " is a planet #" + (int)Planets.Earth);
         }
+    }
+
+    enum Planets
+    {
+        Mercury = 1, Earth = 400, Jupiter
     }
 }
