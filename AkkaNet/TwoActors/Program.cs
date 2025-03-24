@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cSharpSB.AkkaNet
+namespace cSharpSB.AkkaNet.TwoActors
 {
-    class SimpleActor
+    class Program
     {
     }
 }
