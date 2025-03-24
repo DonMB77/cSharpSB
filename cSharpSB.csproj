@@ -5,12 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>AkkaConsoleSimple.Program</StartupObject>
+	<StartupObject>cSharpSB.AkkaNet.TwoActors.Program</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="AkkaNet\TwoActors\" />
-  </ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="akka" Version="1.3.12" />
 	</ItemGroup>
