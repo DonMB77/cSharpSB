@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cSharpSB
+namespace cSharpSB.old
 {
     class Program
     {
