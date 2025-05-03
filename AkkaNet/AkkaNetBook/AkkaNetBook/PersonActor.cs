@@ -9,14 +9,22 @@ using Akka.Actor;
 
 namespace AkkaNetBook
 {
-    class PersonActor : UntypedActor
+    class PersonActor : ReceiveActor
     {
-        protected override void OnReceive(object message)
+        private int _peopleMet = 0;
+        public PersonActor()
         {
-            if (message is VocalGreeting)
+            Receive<VocalGreeting>(async x =>
             {
-                message.
-            }
+                _peopleMet++;
+                Console.WriteLine("I've met {0} people today", _peopleMet);
+            });
+
+            Receive<Wave>(x =>
+            {
+                Context.Sender.Tell(new VocalGreeting("Hello"));
+                Context.Sender.Tell(new Wave());
+            });
         }
     }
 
