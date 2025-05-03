@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{52995864-CD43-48B7-9BCA-B5DA7A97275F}|AkkaNetBook\\AkkaNetBook.csproj|c:\\users\\dmarc\\csharpsb\\akkanet\\akkanetbook\\akkanetbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52995864-CD43-48B7-9BCA-B5DA7A97275F}|AkkaNetBook\\AkkaNetBook.csproj|solutionrelative:akkanetbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52995864-CD43-48B7-9BCA-B5DA7A97275F}|AkkaNetBook\\AkkaNetBook.csproj|c:\\users\\dmarc\\csharpsb\\akkanet\\akkanetbook\\akkanetbook\\akkanetbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52995864-CD43-48B7-9BCA-B5DA7A97275F}|AkkaNetBook\\AkkaNetBook.csproj|solutionrelative:akkanetbook\\akkanetbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52995864-CD43-48B7-9BCA-B5DA7A97275F}|AkkaNetBook\\AkkaNetBook.csproj|c:\\users\\dmarc\\csharpsb\\akkanet\\akkanetbook\\akkanetbook\\personactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52995864-CD43-48B7-9BCA-B5DA7A97275F}|AkkaNetBook\\AkkaNetBook.csproj|solutionrelative:akkanetbook\\personactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonActor.cs",
+              "DocumentMoniker": "C:\\Users\\dmarc\\cSharpSB\\AkkaNet\\AkkaNetBook\\AkkaNetBook\\PersonActor.cs",
+              "RelativeDocumentMoniker": "AkkaNetBook\\PersonActor.cs",
+              "ToolTip": "C:\\Users\\dmarc\\cSharpSB\\AkkaNet\\AkkaNetBook\\AkkaNetBook\\PersonActor.cs",
+              "RelativeToolTip": "AkkaNetBook\\PersonActor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:59:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AkkaNetBook",
+              "DocumentMoniker": "C:\\Users\\dmarc\\cSharpSB\\AkkaNet\\AkkaNetBook\\AkkaNetBook\\AkkaNetBook.csproj",
+              "RelativeDocumentMoniker": "AkkaNetBook\\AkkaNetBook.csproj",
+              "ToolTip": "C:\\Users\\dmarc\\cSharpSB\\AkkaNet\\AkkaNetBook\\AkkaNetBook\\AkkaNetBook.csproj",
+              "RelativeToolTip": "AkkaNetBook\\AkkaNetBook.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-03T14:58:26.502Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +58,9 @@
               "RelativeDocumentMoniker": "AkkaNetBook\\Program.cs",
               "ToolTip": "C:\\Users\\dmarc\\cSharpSB\\AkkaNet\\AkkaNetBook\\AkkaNetBook\\Program.cs",
               "RelativeToolTip": "AkkaNetBook\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:53:18.247Z",
+              "WhenOpened": "2025-05-03T14:51:28.249Z",
               "EditorCaption": ""
             }
           ]
